@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main(){
-    int n, m, rev=0, rem, first, last, sum;
+    int n, m, rev=0, rem;
     printf("Enter the number\n");
     scanf("%d",&n);
     m = n;
@@ -9,8 +9,11 @@ void main(){
         n = n/10;
         rev=rev*10+rem;
     }
-    first = rev % 10;
-    last = m % 10;
-    sum = first + last;
-    printf("The Sum of first and last digit is %d", sum);
+    if(rev == m){
+        printf("%d is a palindrome\n", m);
+    }
+    else{
+        printf("%d is not a palindrome\n", m);
+    }
 }
+
