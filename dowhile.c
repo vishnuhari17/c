@@ -30,6 +30,6 @@ void main()
         }
         printf("The result is : %d\n",sum);
         printf("DO YOU WANT TO CONTINUE? (y/n) : ");
-        scanf("%s",&ch);
+        scanf(" %c",&ch);
     }while(ch=='Y'|| ch=='y');
 }
