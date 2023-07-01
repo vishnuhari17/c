@@ -7,11 +7,11 @@ void main()
     i = 2;
     a = 0;
     b = 1;
-    printf("%d%d", a, b);
+    printf("%d %d ", a, b);
     while(i<n)
     {
         c= a + b;
-        printf("%d", c);
+        printf("%d ", c);
         a = b;
         b = c;
         i = i + 1;
