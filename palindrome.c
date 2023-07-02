@@ -15,5 +15,7 @@ void main(){
     else{
         printf("%d is not a palindrome\n", m);
     }
+
+    
 }
 
