@@ -10,6 +10,8 @@ void main()
     printf("Enter the limit : ");
     scanf("%d",&n);
     for(i=0;i<=n;i+=2)
+
+    
     {
         fact=1;
         for(j=1;j<=i;j++)

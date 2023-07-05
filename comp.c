@@ -20,3 +20,4 @@ int main() {
     printPattern(num);
     return 0;
 }
+
