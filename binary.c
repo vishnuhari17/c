@@ -11,5 +11,6 @@ void main()
         decimal = decimal + reminder * place;
         place = place * 2;
     }
+    
     printf("The decimal no is %d\n",decimal);
 }
