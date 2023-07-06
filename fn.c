@@ -33,8 +33,8 @@ void main()
 
 void sinx(float x,int lim)
 {
-    int i,j,k=1,fact;
-    float term, final=0;
+    int i,j,k=1;
+    float fact, term, final=0;
     for(i=1;i<=lim;i+=2)
     {
         fact=1;
@@ -51,8 +51,8 @@ void sinx(float x,int lim)
 
 void cosx(float x,int lim)
 {
-    int i,j,k=1,fact;
-    float term, final=0;
+    int i,j,k=1;
+    float fact, term, final=0;
     for(i=0;i<=lim;i+=2)
     {
         fact=1;

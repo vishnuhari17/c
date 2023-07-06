@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
     int octal, decimal = 0, remainder, place=1;
-    printf("Enter the decimal no\n");
+    printf("Enter the Octal no\n");
     scanf("%d", &octal);
     while(octal != 0){
         remainder = octal % 10;
@@ -9,5 +9,5 @@ void main(){
         decimal = decimal + remainder * place;
         place = place * 8;
     }
-    printf("The no in octal is %d", decimal);
+    printf("The no in decimal is %d\n", decimal);
 }

@@ -9,6 +9,6 @@ void main(){
         octal = octal + remainder * place;
         place = place * 10;
     }
-    printf("The no in octal is %d", octal);
+    printf("The no in octal is %d\n", octal);
 
 }
